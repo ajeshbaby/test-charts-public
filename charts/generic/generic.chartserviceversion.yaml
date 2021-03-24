@@ -19,26 +19,7 @@ spec:
     - pod-network-loss
     - pod-network-latency
     - pod-network-corruption
-    - node-drain
-    - node-cpu-hog
-    - disk-loss
-    - disk-fill
-    - node-memory-hog
-    - pod-memory-hog
-    - kubelet-service-kill
-    - pod-network-duplication
-    - node-taint
-    - docker-service-kill
-    - pod-autoscaler
-    - k8-pod-delete
-    - k8-service-kill
-    - node-io-stress
-    - pod-io-stress
-    - node-restart
-    - TP2-Demo1
-    - TP2-Demo2
-    - TP2-Demo3
-    
+   
   keywords:
     - Kubernetes
     - Container
