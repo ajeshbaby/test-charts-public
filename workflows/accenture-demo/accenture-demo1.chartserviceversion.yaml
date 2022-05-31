@@ -1,0 +1,38 @@
+apiVersion: litmuchaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  createdAt: 2021-05-24T10:28:08Z
+  name: demo-accenture1
+  version: 0.1.0
+  annotations:
+    categories: demo-accenture1
+    chartDescription: Injects pod-delete chaos on catalogue application in the sock-shop namespace
+spec:
+  displayName: Pod-Delete on Catalog app Chaos
+  categoryDescription: >
+    It injects pod delete chaos on catalog application in the sock-shop namespace and probes for that service.
+  experiments:
+    - pod-delete
+  keywords:
+    - Kubernetes
+    - Catalogue-app
+    - Pod
+  platforms:
+    - GKE
+    - Minikube 
+    - Packet(Kubeadm)
+    - EKS
+    - AKS
+  maintainers:
+    - name: umamukkara
+      email: uma@harness.com
+  provider:
+    name: Harness
+  links:
+    - name: Kubernetes Slack
+      url: https://slack.kubernetes.io/
+    - name: Documentation
+      url: https://docs.litmuschaos.io/docs/chaoshub/#generic-chaos
+  icon:
+    - url:
+      mediatype: ""
