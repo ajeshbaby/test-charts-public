@@ -2,7 +2,7 @@ apiVersion: litmuchaos.io/v1alpha1
 kind: ChartServiceVersion
 metadata:
   createdAt: 2021-05-24T10:28:08Z
-  name: demo-accenture1
+  name: accenture-demo
   version: 0.1.0
   annotations:
     categories: demo-accenture1
